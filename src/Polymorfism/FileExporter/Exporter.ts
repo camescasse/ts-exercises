@@ -1,7 +1,7 @@
 import Document from './Document';
 
 interface Exporter {
-  export(document: Document): void;
+  export(document: Document);
 }
 
 export default Exporter;
