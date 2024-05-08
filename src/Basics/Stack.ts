@@ -1,19 +1,19 @@
-class Stack {
-  items: any[];
+class Stack<T> {
+  items: T[];
 
   constructor() {
     this.items = [];
   }
 
-  push(item: any) {
+  push(item: T) {
     this.items.push(item);
   }
 
-  pop(): any {
+  pop(): T {
     return this.items.pop();
   }
 
-  peek(): any {
+  peek(): T {
     return this.items.at(-1);
   }
 }
