@@ -24,7 +24,7 @@ class Stopwatch {
     }
   }
 
-  getDuration() {
+  printDuration() {
     if (this.isRunning) {
       this.endTime = Date.now();
       const duration = this.endTime - this.startTime;
