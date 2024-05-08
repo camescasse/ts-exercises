@@ -5,7 +5,5 @@
         "target": "ES5",
         "sourceMap": true
     },
-    "include": [
-        "./src/**/*"
-    ],
+    "include": ["src"],
 }
