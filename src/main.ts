@@ -1,3 +1,5 @@
-const message = "Hello World!";
+function main() {
+  // Put your code here
+}
 
-console.log(message);
+main();
