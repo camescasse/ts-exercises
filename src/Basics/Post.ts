@@ -1,14 +1,18 @@
 class Post {
   title: string;
   description: string;
-  date: number;
+  createdAt: Date;
   votes: number;
 
   constructor(title: string, description: string) {
     this.title = title;
     this.description = description;
-    this.date = Date.now();
+    this.createdAt = new Date();
     this.votes = 0;
+  }
+
+  getCreatedDate(): string {
+    return this.createdAt.toISOString();
   }
 
   getVotes(): number {
